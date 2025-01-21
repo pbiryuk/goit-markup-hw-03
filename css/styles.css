@@ -50,8 +50,8 @@ img {
 }
 
 .container-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
     display: flex;    
 }
 
@@ -84,7 +84,9 @@ img {
 
 .header-menu-list {
     display: flex;
-    gap: 40px;
+    gap: 40px;    
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /* .header-menu-item {
@@ -109,9 +111,11 @@ img {
     font-style: normal;
 }
 
-.address-list {
+.address-list {    
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /* .header-address {
