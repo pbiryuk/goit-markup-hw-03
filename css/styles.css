@@ -87,10 +87,10 @@ img {
     gap: 40px;    
 }
 
-.header-menu-item {
+/* .header-menu-item {
     padding-top: 24px;
     padding-bottom: 24px;
-}
+} */
 
 .header-menu-link{
     font-size: 16px;
@@ -99,6 +99,8 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu-link:hover,
