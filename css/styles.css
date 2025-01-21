@@ -46,16 +46,18 @@ img {
 /* -------------HEADER------------- */
 
 .header {
-    border-bottom: 1px solid #e7e9fc  
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header {
-    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;    
 }
 
 .header-nav {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 .header-logo {
@@ -66,8 +68,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
     margin-right: 76px;
 }
 
@@ -79,7 +79,7 @@ img {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #2e2f42;    
 }
 
 .header-menu-list {
@@ -88,19 +88,15 @@ img {
 }
 
 /* .header-menu-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
 } */
 
 .header-menu-link{
-    padding-top: 24px;
-    padding-bottom: 24px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
+    display: block;
 }
 
 .header-menu-link:hover,
@@ -109,24 +105,24 @@ img {
 }
 
 .address {
+    margin-left: auto;
     font-style: normal;
 }
 
-/* .header-address {
-    padding-top: 24px;
-    padding-bottom: 24px;
-} */
-
-.address-list{
+.address-list {
     display: flex;
     gap: 40px;
 }
+
+/* .header-address {
+} */
 
 .header-address-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455; 
+    display: block;
 }
 
 .header-address-link:hover,
@@ -154,7 +150,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    padding-bottom: 48px;
     margin: 0 auto;
 }
 
@@ -171,7 +166,7 @@ img {
     background-color: #4d5ae5;
     border: none;
     border-radius: 4px;
-    margin: 0 auto;
+    margin: 48px auto 0;
 }
 
 .title-btn:hover,
@@ -326,7 +321,14 @@ img {
     background-color: #2e2f42;
 }
 
-.header-logo {
+.footer-logo {     
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;   
     display: inline-block;
     margin-bottom: 16px;
 }
